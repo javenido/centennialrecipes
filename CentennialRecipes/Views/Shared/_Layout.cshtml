@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link href="~/css/centennial.css" rel="stylesheet" />
+    <link rel="icon" href="~/images/icon.png" />
+    <script src="~/js/utility.js"></script>
+    <title>@ViewBag.Title</title>
+</head>
+
+<body>
+    <!-- Sign in/Sign out Bar -->
+    @await Html.PartialAsync("AccountLayout")
+
+    <!-- Navigation Bar -->
+    @await Html.PartialAsync("NavigationLayout")
+
+    <!-- Alerts -->
+    @await Html.PartialAsync("AlertsLayout")
+
+    <!-- Render content view -->
+    <div class="rendered">
+        @RenderBody()
+    </div>
+
+    <hr />
+
+    <!-- Footer -->
+    <footer>
+        <center>
+            <b>© Group 8 | COMP 229 SEC 003 M20</b><br />
+            Co-created by Hanzel Torceno (300995627), John Avenido (301124856), and Mary Kristine Pacleb (301082263).
+        </center>
+    </footer>
+</body>
+
+</html>

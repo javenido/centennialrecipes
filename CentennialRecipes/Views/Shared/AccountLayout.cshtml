@@ -1,0 +1,40 @@
+﻿<div class="account">
+    @if (User.Identity.IsAuthenticated) // if user is signed in
+    {
+        <div style="display:flex;flex-direction:column;align-items:flex-end;">
+            <div class="accountDiv">
+                <!-- User icon -->
+                <img src="~/images/user.png" class="accountBtn" onclick="clickAccountDropdownIcon();" />
+
+                <!-- User name -->
+                <b class="accountBtn" onclick="clickAccountDropdownIcon();">@User.Identity.Name</b>
+
+                <!-- Dropdown icon -->
+                <a class="accountDropdownIcon" onclick="showAccountDropdown();">▾</a>
+            </div>
+            <div id="accountDropdown" style="display:none">
+                <!-- My Recipes -->
+                <a asp-controller="Recipe"
+                   asp-action="RecipeList"
+                   asp-route-user="@User.Identity.Name">My Recipes</a>
+
+                <!-- Sign out (dropdown) -->
+                <a onclick="confirmSignOut();">Sign Out</a>
+            </div>
+        </div>
+
+        <!-- Sign out (icon) -->
+        <img style="cursor:pointer;" onclick="confirmSignOut();"
+             title="Sign out of Centennial Recipes" src="~/images/signout.png" />
+
+        <!-- Sign out -->
+        <span style="cursor:pointer;" onclick="confirmSignOut();"
+              title="Sign out of Centennial Recipes">Sign Out</span>
+    }
+    else // if user is not signed in
+    {
+        <a asp-controller="Account"
+           asp-action="Login"
+           asp-route-returnUrl="@ViewContext.HttpContext.Request.Path">Sign In</a>
+    }
+</div>

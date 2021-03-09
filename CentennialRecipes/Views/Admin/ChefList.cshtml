@@ -1,0 +1,127 @@
+﻿@model ChefListViewModel
+@{
+    ViewBag.Title = "Manage Chefs | Centennial Recipes";
+}
+
+<h2>@ViewBag.Header</h2>
+
+<div class="flex-vertical">
+    <table class="list">
+        <!-- Column Definitions (%) -->
+        <colgroup>
+            <col width="10" />
+            <col width="35" />
+            <col width="30" />
+            <col width="25" />
+        </colgroup>
+
+        <thead>
+            <tr>
+                <!-- Table Headers -->
+                <th>ID</th>
+                <th>Name</th>
+                <th>Specialty Cuisine</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        @foreach (Chef chef in Model.ChefList)
+        {
+            <tr>
+                <!-- CHEF ID -->
+                <td align="center">@chef.ChefId</td>
+
+                <!-- CHEF FULL NAME -->
+                <td>
+                    <a asp-controller="Chef" asp-action="ViewChef" asp-route-id="@chef.ChefId"
+                       title="View profile">
+                        @chef.ToString()
+                    </a>
+                </td>
+
+                <!-- SPECIALTY -->
+                <td>@chef.Specialty</td>
+
+                <!-- ACTIONS -->
+                <td align="center" class="actions">
+                    <!-- View Action-->
+                    <a asp-controller="Chef" asp-action="ViewChef" asp-route-id="@chef.ChefId"
+                       title="View profile">
+                        <img src="~/images/view.png" />
+                    </a>
+
+                    <!-- Edit Action-->
+                    <a asp-action="EnterChefDetails"
+                       asp-route-id="@chef.ChefId"
+                       asp-route-returnUrl="@ViewContext.HttpContext.Request.Path"
+                       title="Edit chef">
+                        <img src="~/images/edit.png" />
+                    </a>
+
+                    <!-- View all Recipes created by this Chef -->
+                    <a title="View all recipes created by @chef.ToString() (@chef.GetRecipeCount())"
+                       asp-action="RecipeList" asp-route-chefId="@chef.ChefId">
+                        <img src="~/images/recipe.png" />
+                    </a>
+
+                    <!-- Website -->
+                    @if (chef.Website != null)
+                    {
+                        <a href="@chef.Website" target="_blank" title="Open chef's website in a new tab">
+                            <img src="~/images/website.png" />
+                        </a>
+                    }
+
+                    <!-- Delete Action -->
+                    <a title="Delete chef"
+                       onclick="confirmDeleteChef(@chef.ChefId)">
+                        <img src="~/images/delete.png" />
+                    </a>
+                </td>
+            </tr>
+        }
+
+        <!-- If List is empty (insert row spanning 4 columns) -->
+        @if (Model.PagingInfo.TotalItems == 0)
+        {
+            <tr><td colspan="4" align="center">@ViewBag.NoItemsFound</td></tr>
+        }
+    </table>
+
+    <hr />
+
+    <i class="flex-align-self-end">@ViewBag.Results</i>
+
+    <!-- Add Chef button (appears only at the last page) -->
+    @if (Model.PagingInfo.CurrentPage == Model.PagingInfo.TotalPages)
+    {
+        <a class="btn btn-medium flex-align-self-start"
+           asp-action="EnterChefDetails"><b>+</b> Add a Chef</a>
+    }
+
+    <!-- PAGE LINKS -->
+    <div class="pageLinks flex-align-self-center">
+        <!-- Previous Button -->
+        @if (Model.PagingInfo.CurrentPage > 1)
+        {
+            <a asp-action="ChefList"
+               asp-route-page="@(Model.PagingInfo.CurrentPage - 1)">Previous</a>
+        }
+
+        <!-- Page Buttons -->
+        @for (int i = 1; i < Model.PagingInfo.TotalPages + 1; i++)
+        {
+            <a class="@((i == Model.PagingInfo.CurrentPage) ? ("currentPageLink") : (""))"
+               asp-action="ChefList"
+               asp-route-page="@i">@i</a>
+        }
+
+        <!-- Next Button -->
+        @if (Model.PagingInfo.CurrentPage < Model.PagingInfo.TotalPages)
+        {
+            <a asp-action="ChefList"
+               asp-route-page="@(Model.PagingInfo.CurrentPage + 1)">Next</a>
+        }
+    </div>
+
+    <hr />
+</div>

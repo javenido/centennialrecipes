@@ -1,0 +1,55 @@
+﻿@model LoginViewModel
+@{
+    ViewBag.Title = "Login | Centennial Recipes";
+}
+
+<h1>Sign in to Centennial Recipes</h1>
+<div class="flex-vertical bg-lighter-solid-border">
+    <hr />
+
+    <form asp-controller="Account"
+          asp-action="Login"
+          method="post"
+          class="flex-vertical">
+
+        <!-- Return URL -->
+        <input asp-for="ReturnUrl" hidden readonly />
+
+        <table class="flex-align-self-center">
+            <!-- USERNAME -->
+            <tr>
+                <td align="right">User Name:</td>
+                <td><input asp-for="Name" size="30" /></td>
+            </tr>
+
+            <!-- PASSWORD -->
+            <tr>
+                <td align="right">Password:</td>
+                <td><input asp-for="Password" size="30" /></td>
+            </tr>
+
+            <!-- Show Password Check box -->
+            <tr>
+                <td></td>
+                <td><input type="checkbox" onclick="revealPassword();">Show Password</td>
+            </tr>
+        </table>
+
+        <hr />
+
+        <!-- Sign in button -->
+        <button class="btn btn-large flex-align-self-center" type="submit">Sign In</button>
+
+        <hr />
+
+        <!-- Sign up Link -->
+        <a asp-action="SignUp"
+           asp-controller="Account"
+           asp-route-returnUrl="@Model.ReturnUrl"
+           class="flex-align-self-center"
+           title="Click to create an account">Don't have an account?</a>
+    </form>
+
+    <hr />
+
+</div>

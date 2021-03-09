@@ -1,0 +1,96 @@
+﻿@model RecipeListViewModel
+@{
+    ViewBag.Title = "Recipes | Centennial Recipes";
+}
+
+<div class="flex-vertical">
+    <h2>@ViewBag.Header</h2>
+
+    @foreach (Recipe recipe in Model.RecipeList)
+    {
+        <div class="recipe bg-lighter-solid-border flex-vertical-padded">
+            <!-- Recipe Name -->
+            <h3>@recipe.Name</h3>
+
+            <!-- Author -->
+            @{
+                string user = User.Identity.Name == recipe.User ? $"{recipe.User} (You)" : recipe.User;
+            }
+            <i>added by <a asp-controller="Recipe" asp-action="RecipeList" asp-route-user="@recipe.User" title="View all recipes added by this user"><b>@user</b></a></i>
+
+            <!-- Description-->
+            <span>@recipe.Description</span>
+
+            <!-- Chef/Preparation Time-->
+            <div class="flex-horizontal">
+                <img src="~/images/chef.png" title="Chef" />
+
+                @if (recipe.ChefId == 1)
+                {
+                    <span>@recipe.ChefName</span>}
+                else
+                {
+                    <a title="Go to chef profile"
+                       asp-controller="Chef"
+                       asp-action="ViewChef"
+                       asp-route-id="@recipe.ChefId">@recipe.Chef.ToString()</a>}
+
+                <img src="~/images/prep.png" title="Preparation Time" />
+                @recipe.PreparationTime
+
+                <img src="~/images/reviews.png" title="Reviews Count" />
+                @recipe.GetReviewCount()
+            </div>
+
+            <!-- View Recipe button -->
+            <a class="btn btn-medium flex-align-self-start"
+               asp-action="ViewRecipe"
+               asp-route-id="@recipe.RecipeId"
+               title="View full details">View Recipe</a>
+        </div>
+
+        <hr />
+    }
+
+    <!-- If List is empty -->
+    @if (!Model.RecipeList.Any())
+    {
+        <div>@ViewBag.NoItemsFound</div>
+        <hr />
+    }
+
+    <i class="flex-align-self-end">@ViewBag.Results</i>
+
+    <!-- PAGE LINKS -->
+    <div class="pageLinks flex-align-self-center">
+        <!-- Previous Button -->
+        @if (Model.PagingInfo.CurrentPage > 1)
+        {
+            <a asp-action="RecipeList"
+               asp-route-page="@(Model.PagingInfo.CurrentPage - 1)"
+               asp-route-chefId="@Model.ChefId"
+               asp-route-user="@Model.UserName">Previous</a>
+        }
+
+        <!-- Page Buttons -->
+        @for (int i = 1; i < Model.PagingInfo.TotalPages + 1; i++)
+        {
+            <a class="@((i == Model.PagingInfo.CurrentPage) ? ("currentPageLink") : (""))"
+               asp-action="RecipeList"
+               asp-route-page="@i"
+               asp-route-chefId="@Model.ChefId"
+               asp-route-user="@Model.UserName">@i</a>
+        }
+
+        <!-- Next Button -->
+        @if (Model.PagingInfo.CurrentPage < Model.PagingInfo.TotalPages)
+        {
+            <a asp-action="RecipeList"
+               asp-route-page="@(Model.PagingInfo.CurrentPage + 1)"
+               asp-route-chefId="@Model.ChefId"
+               asp-route-user="@Model.UserName">Next</a>
+        }
+    </div>
+
+    <hr />
+</div>

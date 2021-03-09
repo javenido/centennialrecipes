@@ -1,0 +1,29 @@
+﻿@model RecipeViewModel
+@{
+    string header;
+    if (Model.Recipe.RecipeId == 0)
+    {
+        ViewBag.Title = "Add Recipe | Centennial Recipes";
+        header = "Add a new recipe";
+    }
+    else
+    {
+        ViewBag.Title = "Edit Recipe | Centennial Recipes";
+        header = "Edit recipe";
+    }
+}
+
+<h1>@header</h1>
+
+<div class="flex-vertical-padded bg-lighter-solid-border">
+    @await Html.PartialAsync("RecipeDetailsForm", Model)
+</div>
+
+<!-- SCRIPTS -->
+<script type="text/javascript">
+    // hide "Chef Name" row according to Chef dropdown selection
+    addEventListenerToChefSelect();
+
+    // repopulate ingredients list and preparation time inputs
+    onLoadPopulateControls();
+</script>

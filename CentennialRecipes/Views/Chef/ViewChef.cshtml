@@ -1,0 +1,57 @@
+﻿@model Chef
+@{
+    string header;
+
+    header = "Chef Details";
+    ViewBag.Title = Model.ToString() + " | Centennial Recipes";
+}
+
+<!-- Chef Name -->
+<h1>@Model.ToString()</h1>
+
+<div class="flex-vertical-padded bg-lighter-solid-border">
+
+    <!-- Description -->
+    <h2>Description</h2>
+    @Model.Description
+
+    <!-- Specialty -->
+    <h2>Specialty Cuisine</h2>
+    @Model.Specialty
+
+    <!-- Website -->
+    @if (Model.Website != "" && Model.Website != null)
+    {
+        <h3>Website</h3>
+        <a href="@Model.Website" target="_blank" title="Open chef website in a new tab">@Model.Website</a>
+    }
+
+    <!-- Restaurant -->
+    @if (Model.Restaurant != "" && Model.Restaurant != null)
+    {
+        <h3>Restaurant</h3>
+        <span>@Model.Restaurant</span>
+    }
+
+    <hr />
+
+    <div class="flex-horizontal">
+        <!-- Update Button (visible to admin only) -->
+        @if (User.IsInRole("Admin"))
+        {
+            <a class="btn btn-large flex-align-self-start"
+               asp-controller="Admin"
+               asp-action="EnterChefDetails"
+               asp-route-id="@Model.ChefId"
+               asp-route-returnUrl="@ViewContext.HttpContext.Request.Path">Update Chef</a>
+        }
+
+        <!-- View Recipes button -->
+        <a asp-controller="Recipe"
+           asp-action="RecipeList"
+           asp-route-chefId="@Model.ChefId"
+           title="View recipes created by this chef"
+           class="btn btn-large">View Recipes</a>
+    </div>
+
+</div>

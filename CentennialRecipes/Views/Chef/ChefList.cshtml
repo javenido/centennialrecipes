@@ -1,0 +1,81 @@
+﻿@model ChefListViewModel
+@{
+    ViewBag.Title = "Chefs | Centennial Recipes";
+}
+
+<h2>@ViewBag.header</h2>
+
+<div class="flex-vertical">
+    <div class="flex-horizontal-justified">
+        @foreach (Chef chef in Model.ChefList)
+        {
+            <div class="bg-lighter-solid-border chef flex-vertical flex-align-self-start">
+                <!-- Chef Full Name -->
+                <h3>@chef.ToString()</h3>
+
+                <!-- Description -->
+                <span>@chef.Description</span>
+
+                <!-- View all recipes created by this chef -->
+                <div class="flex-horizontal">
+                    <a asp-controller="Recipe"
+                       asp-action="RecipeList"
+                       asp-route-chefId="@chef.ChefId"
+                       title="View all recipes created by @chef.ToString()">
+                        <img src="~/images/recipes-by-chef.png" />
+                        @chef.GetRecipeCount() <!-- Display number of recipes created by this chef -->
+                    </a>
+
+                    <img src="~/images/cuisine.png" style="padding-right: 4px;"
+                         title="Specialty Cuisine"/>
+                    @chef.Specialty
+                </div>
+
+                <!-- View Profile button -->
+                <a asp-action="ViewChef"
+                   asp-route-id="@chef.ChefId"
+                   class="btn btn-medium flex-align-self-start">View Chef Profile</a>
+            </div>
+        }
+    </div>
+
+    <!-- If List is empty -->
+    @if (!Model.ChefList.Any())
+    {
+        <div>@ViewBag.NoItemsFound</div>
+    }
+
+    <hr />
+
+    <i class="flex-align-self-end">@ViewBag.Results</i>
+
+    <!-- PAGE LINKS -->
+    <div class="pageLinks flex-align-self-center">
+        <!-- Previous Button -->
+        @if (Model.PagingInfo.CurrentPage > 1)
+        {
+            <a asp-action="ChefList"
+               asp-route-page="@(Model.PagingInfo.CurrentPage - 1)"
+               asp-route-cuisine="@Model.Cuisine">Previous</a>
+        }
+
+        <!-- Page Buttons -->
+        @for (int i = 1; i < Model.PagingInfo.TotalPages + 1; i++)
+        {
+            <a class="@((i == Model.PagingInfo.CurrentPage) ? ("currentPageLink") : (""))"
+               asp-action="ChefList"
+               asp-route-page="@i"
+               asp-route-cuisine="@Model.Cuisine">@i</a>
+        }
+
+        <!-- Next Button -->
+        @if (Model.PagingInfo.CurrentPage < Model.PagingInfo.TotalPages)
+        {
+            <a asp-action="ChefList"
+               asp-route-page="@(Model.PagingInfo.CurrentPage + 1)"
+               asp-route-cuisine="@Model.Cuisine">Next</a>
+        }
+    </div>
+
+    <hr />
+</div>

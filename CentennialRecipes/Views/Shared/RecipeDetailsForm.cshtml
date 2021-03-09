@@ -1,0 +1,107 @@
+﻿@model RecipeViewModel
+
+<form asp-controller="Recipe" asp-action="EnterRecipeDetails" method="post">
+    <!-- ID -->
+    <input asp-for="Recipe.RecipeId" hidden readonly />
+
+    <!-- USER -->
+    <input asp-for="Recipe.User" hidden readonly />
+
+    <!-- RETURN URL -->
+    <input asp-for="ReturnUrl" hidden readonly />
+
+    <table>
+        <!-- NAME -->
+        <tr>
+            <td align="right">Name:</td>
+            <td><input asp-for="Recipe.Name" size="30" /></td>
+        </tr>
+
+        <!-- DESCRIPTION -->
+        <tr>
+            <td align="right" valign="top">Description:</td>
+            <td><textarea asp-for="Recipe.Description" rows="10" cols="100"></textarea></td>
+        </tr>
+
+        <!-- INGREDIENTS -->
+        <tr>
+            <td align="right">Ingredients:</td>
+            <td>
+                <input id="ingredientInput" size="40" title="Enter semicolon-separated values"
+                       onkeydown="onKeyEventInput(this, 'ingredientsList')"
+                       onkeyup="onKeyEventInput(this, 'ingredientsList')" />
+                <button onclick="addItemToList('ingredientsList', 'ingredientInput')"
+                        disabled type="button" class="btn-small">
+                    Add Ingredient
+                </button>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <div class="flex-horizontal-wrapping" id="ingredientsList"></div>
+                <input asp-for="Recipe.Ingredients" hidden readonly />
+            </td>
+        </tr>
+
+        <!-- CHEF -->
+        <tr>
+            <td align="right">Chef:</td>
+            <td>
+                <select asp-for="Recipe.ChefId">
+                    <option value="0">Select chef</option>
+                    @foreach (Chef chef in ViewBag.Chefs)
+                    {
+                        <option value="@chef.ChefId">@chef.ToString()</option>
+                    }
+                    <option value="1">Other</option>
+                </select>
+            </td>
+        </tr>
+
+        <!-- CHEF NAME (required if ChefId==1) -->
+        <tr id="hiddenRow" style="display:none;">
+            <td align="right">Chef Name:</td>
+            <td><input asp-for="Recipe.ChefName" size="30" placeholder="Specify name of chef" /></td>
+        </tr>
+
+        <!-- PREPARATION TIME -->
+        <tr>
+            <td align="right">Preparation Time:</td>
+            <td>
+                <input class="numeric-input" type="number" min="1"
+                       onchange="updateTimeInputElement(); removeNonDigits(this);"
+                       onkeyup="updateTimeInputElement(); removeNonDigits(this);"
+                       onkeydown="updateTimeInputElement(); removeNonDigits(this);" />
+                <select onchange="updateTimeInputElement()">
+                    <option value="1">second(s)</option>
+                    <option value="2">minute(s)</option>
+                    <option value="3">hour(s)</option>
+                    <option value="4">day(s)</option>
+                </select>
+                <input asp-for="Recipe.PreparationTime" hidden readonly />
+            </td>
+        </tr>
+    </table>
+
+    <hr />
+
+    <!-- Submit button -->
+    <button type="submit" class="btn-medium">Save Recipe</button>
+
+    <!-- Delete button -->
+    @if (Model.Recipe.RecipeId > 0)
+    {
+        <span onclick="confirmDelete(@Model.Recipe.RecipeId)"
+              class="btn btn-medium">
+            Delete Recipe
+        </span>
+    }
+
+    <!-- Cancel button -->
+    <button asp-action="Cancel"
+            asp-route-returnUrl="@Model.ReturnUrl"
+            class="btn btn-medium">
+        Cancel
+    </button>
+</form>

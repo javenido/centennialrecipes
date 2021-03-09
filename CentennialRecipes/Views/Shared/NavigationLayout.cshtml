@@ -1,0 +1,63 @@
+﻿<div class="nav">
+    <!-- logo -->
+    <a asp-controller="Home" asp-action="Index" id="logo"><img src="~/images/logo.png" width="192" title="Return to home page" /></a>
+
+    <!-- home -->
+    <a asp-controller="Home" asp-action="Index">Home</a>
+
+    <!-- recipe dropdown -->
+    <div class="dropdown">
+        <button class="dropbtn">Recipe</button>
+        <div class="dropdown-content">
+            <a asp-controller="Recipe" asp-action="RecipeList">View All Recipes</a>
+            @if (User.Identity.IsAuthenticated)
+            {
+                <a asp-controller="Recipe"
+                   asp-action="RecipeList"
+                   asp-route-user="@User.Identity.Name">View My Recipes</a>
+            }
+            <a asp-controller="Recipe"
+               asp-action="EnterRecipeDetails"
+               asp-route-id="0"
+               asp-route-returnUrl="@ViewContext.HttpContext.Request.Path">Add a Recipe</a>
+            <a asp-controller="Recipe"
+               asp-action="ReviewRecipe"
+               asp-route-id="0">Write a Review</a>
+        </div>
+    </div>
+
+    <!-- chef dropdown -->
+    <div class="dropdown">
+        <button class="dropbtn">Chef</button>
+        <div class="dropdown-content">
+            <a asp-controller="Chef" asp-action="ChefList">View All Chefs</a>
+            <div class="dropdown-side">
+                <a class="dropbtn-side">View All Chefs by Specialty</a>
+                <div class="dropdown-content-side">
+                    @{ 
+                        IEnumerable<Cuisine> allCuisines= Enum.GetValues(typeof(Cuisine)).Cast<Cuisine>();
+                        foreach (Cuisine cuisine in allCuisines.Where(c => c != Cuisine.Other))
+                        {
+                            <a asp-controller="Chef"
+                               asp-action="ChefList"
+                               asp-route-cuisine="@cuisine">@cuisine</a>
+                        }
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- admin -->
+    @if (User.IsInRole("Admin")) //only shows up when Admin is signed in
+    {
+        <div class="dropdown">
+            <button class="dropbtn">Admin</button>
+            <div class="dropdown-content">
+                <a asp-controller="Admin" asp-action="Index">Admin Menu</a>
+                <a asp-controller="Admin" asp-action="RecipeList">Manage Recipes</a>
+                <a asp-controller="Admin" asp-action="ChefList">Manage Chefs</a>
+            </div>
+        </div>
+    }
+</div>

@@ -1,0 +1,126 @@
+﻿@{
+    Layout = null; // ignore Razor view start
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link href='https://fonts.googleapis.com/css?family=Catamaran' rel='stylesheet'>
+    <link href="~/css/centennial.css" rel="stylesheet" />
+    <link rel="icon" href="~/images/icon.png" />
+    <script src="~/js/utility.js"></script>
+    <title>Centennial Recipes</title>
+</head>
+
+<body class="home-menu">
+    <!-- Sign in/Sign out Bar -->
+    @await Html.PartialAsync("AccountLayout")
+
+    <!-- Navigation Bar -->
+    @await Html.PartialAsync("NavigationLayout")
+
+    <!-- Alerts -->
+    @await Html.PartialAsync("AlertsLayout")
+
+    <!-- CAROUSEL -->
+    <!-- Page 1 -->
+    <div class="home-menu-contents flex-align-items-end">
+        <hr />
+
+        @if (!User.Identity.IsAuthenticated)
+        {
+            <h1>CREATE</h1>
+            <h2>AN ACCOUNT</h2>
+            <h3>Sign in or create an account so you can add a recipe and write reviews.</h3>
+
+            <a asp-controller="Account"
+               asp-action="Login">SIGN IN</a>
+            <a asp-controller="Account"
+               asp-action="SignUp">SIGN UP</a>
+        }
+        else
+        {
+            <h1>WRITE</h1>
+            <h2>A REVIEW</h2>
+            <h3>Let us know what you think of our recipes.</h3>
+
+            <a asp-controller="Recipe" asp-action="ReviewRecipe">REVIEW A RECIPE</a>
+        }
+
+        <div class="image-source flex-align-self-end">
+            <i>Image Source: https://i.ytimg.com/vi/dvy-fqyYSqU/maxresdefault.jpg</i>
+        </div>
+    </div>
+
+    <!-- Page 2 -->
+    <div class="home-menu-contents flex-align-items-start">
+        <hr />
+        <h1>MULTICULTURAL</h1>
+        <h2>RECIPES</h2>
+        <h3>Check out some recipes shared across all Centennial campuses.</h3>
+        <a asp-controller="Recipe"
+           asp-action="RecipeList">VIEW RECIPES</a>
+
+        <div class="image-source flex-align-self-end">
+            <i>Image Source: https://locallove.ca/wp-content/uploads/2018/03/1-LocalLove-1746.jpg</i>
+        </div>
+    </div>
+
+    <!-- Page 3 -->
+    <div class="home-menu-contents flex-align-items-end">
+        <hr />
+        <h1>OUTSTANDING</h1>
+        <h2>CHEFS</h2>
+        <h3>See our roster of world-class chefs.</h3>
+        <a asp-controller="Chef"
+           asp-action="ChefList">VIEW CHEFS</a>
+
+        <div class="image-source flex-align-self-end">
+            <i>Image Source: https://tinyurl.com/y6p4muoy</i>
+        </div>
+    </div>
+
+    <!-- Page 4 -->
+    <div class="home-menu-contents flex-align-items-start">
+        <hr />
+        <h1>SHARE</h1>
+        <h2>A RECIPE</h2>
+        <h3>Share your favourite recipes to the Centennial community.</h3>
+        <a asp-controller="Recipe"
+           asp-action="EnterRecipeDetails"
+           asp-route-returnUrl="@ViewContext.HttpContext.Request.Path">ADD A RECIPE</a>
+
+        <div class="image-source flex-align-self-end">
+            <i>Image Source: https://mfacdn.cachefly.net/chooseveg/sites/2/2018/11/Vegan-Chefs.png</i>
+        </div>
+    </div>
+
+    <hr />
+
+    <!-- Carousel controls -->
+    <div class="carousel-controls flex-align-self-center">
+        <div>
+            <!-- Previous -->
+            <img onclick="plusDivs(-1)" src="~/images/previous.png" />
+
+            <!-- Pause -->
+            <img id="pause" onclick="setCarouselPaused(true)" src="~/images/pause.png" />
+
+            <!-- Play -->
+            <img id="play" style="display:none;" onclick="setCarouselPaused(false)" src="~/images/play.png" />
+
+            <!-- Next -->
+            <img onclick="plusDivs(+1)" src="~/images/next.png" />
+        </div>
+    </div>
+
+    <!-- SCRIPTS / Activate carousel -->
+    <script type="text/javascript">
+        showDivs(slideIndex);
+        carousel();
+    </script>
+</body>
+
+</html>

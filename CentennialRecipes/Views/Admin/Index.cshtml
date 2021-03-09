@@ -1,0 +1,16 @@
+﻿@{
+    ViewBag.Title = "Administrator Menu | Centennial Recipes";
+}
+
+<h1>Administrator Menu</h1>
+
+<div class="bg-lighter-solid-border">
+    <ul>
+        <li><a asp-action="RecipeList">Manage Recipes</a></li>
+        <li><a asp-action="ChefList">Manage Chefs</a></li>
+        <li><a asp-action="EnterChefDetails"
+               asp-route-returnUrl="@ViewContext.HttpContext.Request.Path">Add New Chef</a></li>
+    </ul>
+
+    <hr/>
+</div>

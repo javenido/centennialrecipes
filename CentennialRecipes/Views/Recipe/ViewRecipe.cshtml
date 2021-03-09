@@ -1,0 +1,89 @@
+﻿@model Recipe
+@{
+    ViewBag.Title = $"{Model.Name} | Centennial Recipes";
+}
+
+<h1>@Model.Name</h1>
+
+<div class="flex-vertical-padded bg-lighter-solid-border">
+    <!-- Author -->
+    @{
+        string user = User.Identity.Name == Model.User ? $"{Model.User} (You)" : Model.User;
+    }
+    <i class="flex-align-self-end">Added by <a asp-controller="Recipe" asp-action="RecipeList" asp-route-user="@Model.User" title="View all recipes added by this user"><b>@user</b></a></i>
+
+    <!-- Description -->
+    <h2>Description</h2>
+    @Model.Description
+
+    <!-- Chef -->
+    <h3>Chef</h3>
+    @if (Model.ChefId == 1)
+    {
+        <span>@Model.ChefName</span>
+    }
+    else
+    {
+        <a title="Go to chef profile"
+           asp-controller="Chef"
+           asp-action="ViewChef"
+           asp-route-id="@Model.ChefId">@Model.Chef.ToString()</a>
+    }
+
+    <!-- Preparation Time -->
+    <h3>Preparation Time</h3>
+    @Model.PreparationTime
+
+    <!-- INGREDIENTS -->
+    <h2>Ingredients</h2>
+    <ul>
+        @foreach (string ingredient in Model.GetIngredients())
+        {
+            <li>@ingredient</li>
+        }
+    </ul>
+
+    <!-- 'Update Recipe' button -->
+    @if (User.Identity.IsAuthenticated && ((User.IsInRole("Admin")) ||
+     (User.IsInRole("User") && User.Identity.Name == Model.User)))
+    {
+        <a asp-controller="Recipe"
+           asp-action="EnterRecipeDetails"
+           asp-route-id="@Model.RecipeId"
+           asp-route-returnUrl="@ViewContext.HttpContext.Request.Path"
+           class="flex-align-self-start btn btn-large">Update Recipe</a>
+
+        <hr />
+    }
+
+    <!-- REVIEWS -->
+    <h2>Reviews (@Model.GetReviewCount())</h2>
+    @foreach (RecipeReview review in Model.Reviews.OrderByDescending(r => r.DateAdded))
+    {
+        <div class="reviewDiv flex-horizontal flex-align-self-start">
+            <div class="review">
+                <span>"@review.Content"</span>
+                <div>—————</div>
+                <div>
+                    <a asp-action="RecipeList"
+                       asp-route-user="@review.User"
+                       title="View recipes added by this user"><b>@review.User</b></a>, @review.DateAdded.ToString("MMMM dd, yyyy hh:mm:ss tt")
+                </div>
+            </div>
+
+            <!-- The admin, the author of the recipe, and the writer of the review can perform review deletion -->
+            @if (User.IsInRole("Admin") || (User.IsInRole("User") &&
+               (User.Identity.Name == Model.User || User.Identity.Name == review.User)))
+            {
+                <img onclick="confirmDeleteReview(@review.RecipeReviewId, @review.RecipeId)"
+                     title="Remove review" src="~/images/remove.png" />
+            }
+        </div>
+    }
+
+    <!-- 'Add a Review' button -->
+    <a asp-controller="Recipe"
+       asp-action="ReviewRecipe"
+       asp-route-id="@Model.RecipeId"
+       class="flex-align-self-center btn btn-large">Add a Review</a>
+</div>

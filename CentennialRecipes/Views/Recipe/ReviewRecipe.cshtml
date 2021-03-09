@@ -1,0 +1,74 @@
+﻿@model RecipeReview
+@{
+    ViewBag.Title = "Write a review | Centennial Recipes";
+    string header = (Model.RecipeId == 0) ?
+        "Write a review" :
+        $"Write a review for {TempData["RecipeName"]}";
+}
+
+<h1>@header</h1>
+
+<div class="flex-vertical-padded bg-lighter-solid-border">
+    <form asp-action="ReviewRecipe" method="post" class="reviewForm flex-align-items-center">
+        <!-- User name input (always hidden) -->
+        <input type="hidden" asp-for="User" />
+
+        <!-- Recipe ID input (hidden only if recipe ID is specified) -->
+        @if (Model.RecipeId == 0)
+        {
+            <div class="flex-vertical flex-align-self-start">
+                <!-- Label -->
+                <span>Select recipe to review:</span>
+
+                <div class="flex-horizontal">
+                    <!-- Recipe Dropdown -->
+                    <select asp-for="RecipeId">
+                        <option value="0">Select recipe</option>
+                        @foreach (Recipe recipe in ViewBag.Recipes)
+                        {
+                            string user = (User.Identity.Name == recipe.User) ? "You" : recipe.User;
+                            <option value="@recipe.RecipeId">@recipe.Name (added by @user)</option>
+                        }
+                    </select>
+
+                    <!--View Recipe button-->
+                    <a id="viewRecipe"
+                       class="btn btn-small"
+                       style="display:none;"
+                       asp-action="ViewRecipe"
+                       asp-route-id="@Model.RecipeId"
+                       target="_blank"
+                       title="View recipe in a new tab">View Recipe</a>
+                </div>
+            </div>
+
+            <hr />
+        }
+        else
+        {
+            <input type="hidden" asp-for="RecipeId" />
+        }
+
+        <!-- Review label and textarea -->
+        <div id="reviewInputDiv" class="flex-vertical flex-align-items-center">
+            <label>Write your review below. Please be respectful.</label>
+            <textarea asp-for="Content" rows="20"
+                      onkeydown="onKeyEventInputButton(this)"
+                      onkeyup="onKeyEventInputButton(this)"></textarea>
+
+            <hr />
+
+            <!-- Add Review button -->
+            <button disabled id="submitReview" type="submit" class="btn-large">Add Review</button>
+        </div>
+    </form>
+
+    <!-- SCRIPTS -->
+    <script>
+        // Check if textArea has content and enable/disable submit button accordingly
+        initializeReviewRecipeButton();
+
+        // also, hide "View Recipe" button and input Div according to recipe selection
+        addEventListenerToRecipeSelect();
+    </script>
+</div>

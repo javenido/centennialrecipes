@@ -1,0 +1,245 @@
+C:\Users\codew\Downloads\OneDrive_2020-08-04\CentennialRecipes (v2)\CentennialRecipes\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\codew\Downloads\OneDrive_2020-08-04\CentennialRecipes (v2)\CentennialRecipes\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\codew\Downloads\OneDrive_2020-08-04\CentennialRecipes (v2)\CentennialRecipes\bin\Debug\netcoreapp2.1\CentennialRecipes.deps.json
+C:\Users\codew\Downloads\OneDrive_2020-08-04\CentennialRecipes (v2)\CentennialRecipes\bin\Debug\netcoreapp2.1\CentennialRecipes.runtimeconfig.json
+C:\Users\codew\Downloads\OneDrive_2020-08-04\CentennialRecipes (v2)\CentennialRecipes\bin\Debug\netcoreapp2.1\CentennialRecipes.runtimeconfig.dev.json
+C:\Users\codew\Downloads\OneDrive_2020-08-04\CentennialRecipes (v2)\CentennialRecipes\bin\Debug\netcoreapp2.1\CentennialRecipes.dll
+C:\Users\codew\Downloads\OneDrive_2020-08-04\CentennialRecipes (v2)\CentennialRecipes\bin\Debug\netcoreapp2.1\CentennialRecipes.pdb
+C:\Users\codew\Downloads\OneDrive_2020-08-04\CentennialRecipes (v2)\CentennialRecipes\bin\Debug\netcoreapp2.1\CentennialRecipes.Views.dll
+C:\Users\codew\Downloads\OneDrive_2020-08-04\CentennialRecipes (v2)\CentennialRecipes\bin\Debug\netcoreapp2.1\CentennialRecipes.Views.pdb
+C:\Users\codew\Downloads\OneDrive_2020-08-04\CentennialRecipes (v2)\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.AssemblyInfoInputs.cache
+C:\Users\codew\Downloads\OneDrive_2020-08-04\CentennialRecipes (v2)\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.AssemblyInfo.cs
+C:\Users\codew\Downloads\OneDrive_2020-08-04\CentennialRecipes (v2)\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.csproj.CoreCompileInputs.cache
+C:\Users\codew\Downloads\OneDrive_2020-08-04\CentennialRecipes (v2)\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.RazorAssemblyInfo.cache
+C:\Users\codew\Downloads\OneDrive_2020-08-04\CentennialRecipes (v2)\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.RazorAssemblyInfo.cs
+C:\Users\codew\Downloads\OneDrive_2020-08-04\CentennialRecipes (v2)\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.TagHelpers.input.cache
+C:\Users\codew\Downloads\OneDrive_2020-08-04\CentennialRecipes (v2)\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.TagHelpers.output.cache
+C:\Users\codew\Downloads\OneDrive_2020-08-04\CentennialRecipes (v2)\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.RazorCoreGenerate.cache
+C:\Users\codew\Downloads\OneDrive_2020-08-04\CentennialRecipes (v2)\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\codew\Downloads\OneDrive_2020-08-04\CentennialRecipes (v2)\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\Account\SignUp.cshtml.g.cs
+C:\Users\codew\Downloads\OneDrive_2020-08-04\CentennialRecipes (v2)\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\codew\Downloads\OneDrive_2020-08-04\CentennialRecipes (v2)\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\Recipe\EnterRecipeDetails.cshtml.g.cs
+C:\Users\codew\Downloads\OneDrive_2020-08-04\CentennialRecipes (v2)\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\Recipe\RecipeList.cshtml.g.cs
+C:\Users\codew\Downloads\OneDrive_2020-08-04\CentennialRecipes (v2)\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\Recipe\ReviewRecipe.cshtml.g.cs
+C:\Users\codew\Downloads\OneDrive_2020-08-04\CentennialRecipes (v2)\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\Recipe\ViewRecipe.cshtml.g.cs
+C:\Users\codew\Downloads\OneDrive_2020-08-04\CentennialRecipes (v2)\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\Shared\RecipeDetailsForm.cshtml.g.cs
+C:\Users\codew\Downloads\OneDrive_2020-08-04\CentennialRecipes (v2)\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_NavLayout.cshtml.g.cs
+C:\Users\codew\Downloads\OneDrive_2020-08-04\CentennialRecipes (v2)\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\codew\Downloads\OneDrive_2020-08-04\CentennialRecipes (v2)\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.RazorTargetAssemblyInfo.cache
+C:\Users\codew\Downloads\OneDrive_2020-08-04\CentennialRecipes (v2)\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.RazorTargetAssemblyInfo.cs
+C:\Users\codew\Downloads\OneDrive_2020-08-04\CentennialRecipes (v2)\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.Views.pdb
+C:\Users\codew\Downloads\OneDrive_2020-08-04\CentennialRecipes (v2)\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.dll
+C:\Users\codew\Downloads\OneDrive_2020-08-04\CentennialRecipes (v2)\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.pdb
+C:\Users\codew\Downloads\OneDrive_2020-08-04\CentennialRecipes (v2)\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.genruntimeconfig.cache
+C:\Users\codew\Downloads\OneDrive_2020-08-04\CentennialRecipes (v2)\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.csproj.CopyComplete
+C:\Users\codew\Desktop\S2020\COMP229 - Web\Team Project\CentennialRecipes (v2)\CentennialRecipes\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\codew\Desktop\S2020\COMP229 - Web\Team Project\CentennialRecipes (v2)\CentennialRecipes\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\codew\Desktop\S2020\COMP229 - Web\Team Project\CentennialRecipes (v2)\CentennialRecipes\bin\Debug\netcoreapp2.1\CentennialRecipes.deps.json
+C:\Users\codew\Desktop\S2020\COMP229 - Web\Team Project\CentennialRecipes (v2)\CentennialRecipes\bin\Debug\netcoreapp2.1\CentennialRecipes.runtimeconfig.json
+C:\Users\codew\Desktop\S2020\COMP229 - Web\Team Project\CentennialRecipes (v2)\CentennialRecipes\bin\Debug\netcoreapp2.1\CentennialRecipes.runtimeconfig.dev.json
+C:\Users\codew\Desktop\S2020\COMP229 - Web\Team Project\CentennialRecipes (v2)\CentennialRecipes\bin\Debug\netcoreapp2.1\CentennialRecipes.dll
+C:\Users\codew\Desktop\S2020\COMP229 - Web\Team Project\CentennialRecipes (v2)\CentennialRecipes\bin\Debug\netcoreapp2.1\CentennialRecipes.pdb
+C:\Users\codew\Desktop\S2020\COMP229 - Web\Team Project\CentennialRecipes (v2)\CentennialRecipes\bin\Debug\netcoreapp2.1\CentennialRecipes.Views.dll
+C:\Users\codew\Desktop\S2020\COMP229 - Web\Team Project\CentennialRecipes (v2)\CentennialRecipes\bin\Debug\netcoreapp2.1\CentennialRecipes.Views.pdb
+C:\Users\codew\Desktop\S2020\COMP229 - Web\Team Project\CentennialRecipes (v2)\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.AssemblyInfoInputs.cache
+C:\Users\codew\Desktop\S2020\COMP229 - Web\Team Project\CentennialRecipes (v2)\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.AssemblyInfo.cs
+C:\Users\codew\Desktop\S2020\COMP229 - Web\Team Project\CentennialRecipes (v2)\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.csproj.CoreCompileInputs.cache
+C:\Users\codew\Desktop\S2020\COMP229 - Web\Team Project\CentennialRecipes (v2)\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.RazorAssemblyInfo.cache
+C:\Users\codew\Desktop\S2020\COMP229 - Web\Team Project\CentennialRecipes (v2)\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.RazorAssemblyInfo.cs
+C:\Users\codew\Desktop\S2020\COMP229 - Web\Team Project\CentennialRecipes (v2)\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.TagHelpers.input.cache
+C:\Users\codew\Desktop\S2020\COMP229 - Web\Team Project\CentennialRecipes (v2)\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.TagHelpers.output.cache
+C:\Users\codew\Desktop\S2020\COMP229 - Web\Team Project\CentennialRecipes (v2)\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.RazorCoreGenerate.cache
+C:\Users\codew\Desktop\S2020\COMP229 - Web\Team Project\CentennialRecipes (v2)\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\codew\Desktop\S2020\COMP229 - Web\Team Project\CentennialRecipes (v2)\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\Account\SignUp.cshtml.g.cs
+C:\Users\codew\Desktop\S2020\COMP229 - Web\Team Project\CentennialRecipes (v2)\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\codew\Desktop\S2020\COMP229 - Web\Team Project\CentennialRecipes (v2)\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\Recipe\EnterRecipeDetails.cshtml.g.cs
+C:\Users\codew\Desktop\S2020\COMP229 - Web\Team Project\CentennialRecipes (v2)\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\Recipe\RecipeList.cshtml.g.cs
+C:\Users\codew\Desktop\S2020\COMP229 - Web\Team Project\CentennialRecipes (v2)\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\Recipe\ReviewRecipe.cshtml.g.cs
+C:\Users\codew\Desktop\S2020\COMP229 - Web\Team Project\CentennialRecipes (v2)\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\Recipe\ViewRecipe.cshtml.g.cs
+C:\Users\codew\Desktop\S2020\COMP229 - Web\Team Project\CentennialRecipes (v2)\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\Shared\RecipeDetailsForm.cshtml.g.cs
+C:\Users\codew\Desktop\S2020\COMP229 - Web\Team Project\CentennialRecipes (v2)\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_NavLayout.cshtml.g.cs
+C:\Users\codew\Desktop\S2020\COMP229 - Web\Team Project\CentennialRecipes (v2)\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\codew\Desktop\S2020\COMP229 - Web\Team Project\CentennialRecipes (v2)\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.RazorTargetAssemblyInfo.cache
+C:\Users\codew\Desktop\S2020\COMP229 - Web\Team Project\CentennialRecipes (v2)\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.RazorTargetAssemblyInfo.cs
+C:\Users\codew\Desktop\S2020\COMP229 - Web\Team Project\CentennialRecipes (v2)\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.Views.pdb
+C:\Users\codew\Desktop\S2020\COMP229 - Web\Team Project\CentennialRecipes (v2)\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.dll
+C:\Users\codew\Desktop\S2020\COMP229 - Web\Team Project\CentennialRecipes (v2)\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.pdb
+C:\Users\codew\Desktop\S2020\COMP229 - Web\Team Project\CentennialRecipes (v2)\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.genruntimeconfig.cache
+C:\Users\codew\Desktop\S2020\COMP229 - Web\Team Project\CentennialRecipes (v2)\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.csproj.CopyComplete
+C:\Users\codew\Desktop\S2020\COMP229 - Web\Team Project\CentennialRecipes (v2)\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\Chef\ListChef.cshtml.g.cs
+C:\Users\codew\Desktop\S2020\COMP229 - Web\Team Project\CentennialRecipes (v2)\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\Chef\ViewChef.cshtml.g.cs
+C:\Users\codew\Desktop\S2020\COMP229 - Web\Team Project\CentennialRecipes (v2)\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\Chef\AddChef.cshtml.g.cs
+C:\Users\codew\Desktop\S2020\COMP229 - Web\Team Project\CentennialRecipes (v2)\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\Chef\EditChef.cshtml.g.cs
+C:\Users\codew\Desktop\S2020\COMP229 - Web\Team Project\CentennialRecipes (v2)\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.csprojAssemblyReference.cache
+C:\Users\codew\Desktop\S2020\COMP229 - Web\Team Project\Project Control\CentennialRecipes (v3)\CentennialRecipes\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\codew\Desktop\S2020\COMP229 - Web\Team Project\Project Control\CentennialRecipes (v3)\CentennialRecipes\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\codew\Desktop\S2020\COMP229 - Web\Team Project\Project Control\CentennialRecipes (v3)\CentennialRecipes\bin\Debug\netcoreapp2.1\CentennialRecipes.deps.json
+C:\Users\codew\Desktop\S2020\COMP229 - Web\Team Project\Project Control\CentennialRecipes (v3)\CentennialRecipes\bin\Debug\netcoreapp2.1\CentennialRecipes.runtimeconfig.json
+C:\Users\codew\Desktop\S2020\COMP229 - Web\Team Project\Project Control\CentennialRecipes (v3)\CentennialRecipes\bin\Debug\netcoreapp2.1\CentennialRecipes.runtimeconfig.dev.json
+C:\Users\codew\Desktop\S2020\COMP229 - Web\Team Project\Project Control\CentennialRecipes (v3)\CentennialRecipes\bin\Debug\netcoreapp2.1\CentennialRecipes.dll
+C:\Users\codew\Desktop\S2020\COMP229 - Web\Team Project\Project Control\CentennialRecipes (v3)\CentennialRecipes\bin\Debug\netcoreapp2.1\CentennialRecipes.pdb
+C:\Users\codew\Desktop\S2020\COMP229 - Web\Team Project\Project Control\CentennialRecipes (v3)\CentennialRecipes\bin\Debug\netcoreapp2.1\CentennialRecipes.Views.dll
+C:\Users\codew\Desktop\S2020\COMP229 - Web\Team Project\Project Control\CentennialRecipes (v3)\CentennialRecipes\bin\Debug\netcoreapp2.1\CentennialRecipes.Views.pdb
+C:\Users\codew\Desktop\S2020\COMP229 - Web\Team Project\Project Control\CentennialRecipes (v3)\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.csprojAssemblyReference.cache
+C:\Users\codew\Desktop\S2020\COMP229 - Web\Team Project\Project Control\CentennialRecipes (v3)\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.AssemblyInfoInputs.cache
+C:\Users\codew\Desktop\S2020\COMP229 - Web\Team Project\Project Control\CentennialRecipes (v3)\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.AssemblyInfo.cs
+C:\Users\codew\Desktop\S2020\COMP229 - Web\Team Project\Project Control\CentennialRecipes (v3)\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.csproj.CoreCompileInputs.cache
+C:\Users\codew\Desktop\S2020\COMP229 - Web\Team Project\Project Control\CentennialRecipes (v3)\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.RazorAssemblyInfo.cache
+C:\Users\codew\Desktop\S2020\COMP229 - Web\Team Project\Project Control\CentennialRecipes (v3)\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.RazorAssemblyInfo.cs
+C:\Users\codew\Desktop\S2020\COMP229 - Web\Team Project\Project Control\CentennialRecipes (v3)\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.TagHelpers.input.cache
+C:\Users\codew\Desktop\S2020\COMP229 - Web\Team Project\Project Control\CentennialRecipes (v3)\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.TagHelpers.output.cache
+C:\Users\codew\Desktop\S2020\COMP229 - Web\Team Project\Project Control\CentennialRecipes (v3)\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.RazorCoreGenerate.cache
+C:\Users\codew\Desktop\S2020\COMP229 - Web\Team Project\Project Control\CentennialRecipes (v3)\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\codew\Desktop\S2020\COMP229 - Web\Team Project\Project Control\CentennialRecipes (v3)\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\Account\SignUp.cshtml.g.cs
+C:\Users\codew\Desktop\S2020\COMP229 - Web\Team Project\Project Control\CentennialRecipes (v3)\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\Chef\AddChef.cshtml.g.cs
+C:\Users\codew\Desktop\S2020\COMP229 - Web\Team Project\Project Control\CentennialRecipes (v3)\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\Chef\EditChef.cshtml.g.cs
+C:\Users\codew\Desktop\S2020\COMP229 - Web\Team Project\Project Control\CentennialRecipes (v3)\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\Chef\ListChef.cshtml.g.cs
+C:\Users\codew\Desktop\S2020\COMP229 - Web\Team Project\Project Control\CentennialRecipes (v3)\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\Chef\ViewChef.cshtml.g.cs
+C:\Users\codew\Desktop\S2020\COMP229 - Web\Team Project\Project Control\CentennialRecipes (v3)\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\codew\Desktop\S2020\COMP229 - Web\Team Project\Project Control\CentennialRecipes (v3)\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\Recipe\EnterRecipeDetails.cshtml.g.cs
+C:\Users\codew\Desktop\S2020\COMP229 - Web\Team Project\Project Control\CentennialRecipes (v3)\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\Recipe\RecipeList.cshtml.g.cs
+C:\Users\codew\Desktop\S2020\COMP229 - Web\Team Project\Project Control\CentennialRecipes (v3)\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\Recipe\ReviewRecipe.cshtml.g.cs
+C:\Users\codew\Desktop\S2020\COMP229 - Web\Team Project\Project Control\CentennialRecipes (v3)\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\Recipe\ViewRecipe.cshtml.g.cs
+C:\Users\codew\Desktop\S2020\COMP229 - Web\Team Project\Project Control\CentennialRecipes (v3)\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\Shared\RecipeDetailsForm.cshtml.g.cs
+C:\Users\codew\Desktop\S2020\COMP229 - Web\Team Project\Project Control\CentennialRecipes (v3)\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_NavLayout.cshtml.g.cs
+C:\Users\codew\Desktop\S2020\COMP229 - Web\Team Project\Project Control\CentennialRecipes (v3)\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\codew\Desktop\S2020\COMP229 - Web\Team Project\Project Control\CentennialRecipes (v3)\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.RazorTargetAssemblyInfo.cache
+C:\Users\codew\Desktop\S2020\COMP229 - Web\Team Project\Project Control\CentennialRecipes (v3)\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.RazorTargetAssemblyInfo.cs
+C:\Users\codew\Desktop\S2020\COMP229 - Web\Team Project\Project Control\CentennialRecipes (v3)\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.Views.pdb
+C:\Users\codew\Desktop\S2020\COMP229 - Web\Team Project\Project Control\CentennialRecipes (v3)\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.dll
+C:\Users\codew\Desktop\S2020\COMP229 - Web\Team Project\Project Control\CentennialRecipes (v3)\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.pdb
+C:\Users\codew\Desktop\S2020\COMP229 - Web\Team Project\Project Control\CentennialRecipes (v3)\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.genruntimeconfig.cache
+C:\Users\codew\Desktop\S2020\COMP229 - Web\Team Project\Project Control\CentennialRecipes (v3)\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.csproj.CopyComplete
+C:\Users\John\source\repos\COMP 229\CentennialRecipes (v4)\CentennialRecipes\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\John\source\repos\COMP 229\CentennialRecipes (v4)\CentennialRecipes\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\John\source\repos\COMP 229\CentennialRecipes (v4)\CentennialRecipes\bin\Debug\netcoreapp2.1\CentennialRecipes.deps.json
+C:\Users\John\source\repos\COMP 229\CentennialRecipes (v4)\CentennialRecipes\bin\Debug\netcoreapp2.1\CentennialRecipes.runtimeconfig.json
+C:\Users\John\source\repos\COMP 229\CentennialRecipes (v4)\CentennialRecipes\bin\Debug\netcoreapp2.1\CentennialRecipes.runtimeconfig.dev.json
+C:\Users\John\source\repos\COMP 229\CentennialRecipes (v4)\CentennialRecipes\bin\Debug\netcoreapp2.1\CentennialRecipes.dll
+C:\Users\John\source\repos\COMP 229\CentennialRecipes (v4)\CentennialRecipes\bin\Debug\netcoreapp2.1\CentennialRecipes.pdb
+C:\Users\John\source\repos\COMP 229\CentennialRecipes (v4)\CentennialRecipes\bin\Debug\netcoreapp2.1\CentennialRecipes.Views.dll
+C:\Users\John\source\repos\COMP 229\CentennialRecipes (v4)\CentennialRecipes\bin\Debug\netcoreapp2.1\CentennialRecipes.Views.pdb
+C:\Users\John\source\repos\COMP 229\CentennialRecipes (v4)\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.AssemblyInfoInputs.cache
+C:\Users\John\source\repos\COMP 229\CentennialRecipes (v4)\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.AssemblyInfo.cs
+C:\Users\John\source\repos\COMP 229\CentennialRecipes (v4)\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.csproj.CoreCompileInputs.cache
+C:\Users\John\source\repos\COMP 229\CentennialRecipes (v4)\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.RazorAssemblyInfo.cache
+C:\Users\John\source\repos\COMP 229\CentennialRecipes (v4)\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.RazorAssemblyInfo.cs
+C:\Users\John\source\repos\COMP 229\CentennialRecipes (v4)\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.TagHelpers.input.cache
+C:\Users\John\source\repos\COMP 229\CentennialRecipes (v4)\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.TagHelpers.output.cache
+C:\Users\John\source\repos\COMP 229\CentennialRecipes (v4)\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.RazorCoreGenerate.cache
+C:\Users\John\source\repos\COMP 229\CentennialRecipes (v4)\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\John\source\repos\COMP 229\CentennialRecipes (v4)\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\Account\SignUp.cshtml.g.cs
+C:\Users\John\source\repos\COMP 229\CentennialRecipes (v4)\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\Chef\EditChef.cshtml.g.cs
+C:\Users\John\source\repos\COMP 229\CentennialRecipes (v4)\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\Chef\ListChef.cshtml.g.cs
+C:\Users\John\source\repos\COMP 229\CentennialRecipes (v4)\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\Chef\ViewChef.cshtml.g.cs
+C:\Users\John\source\repos\COMP 229\CentennialRecipes (v4)\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\John\source\repos\COMP 229\CentennialRecipes (v4)\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\Recipe\EnterRecipeDetails.cshtml.g.cs
+C:\Users\John\source\repos\COMP 229\CentennialRecipes (v4)\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\Recipe\RecipeList.cshtml.g.cs
+C:\Users\John\source\repos\COMP 229\CentennialRecipes (v4)\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\Recipe\ReviewRecipe.cshtml.g.cs
+C:\Users\John\source\repos\COMP 229\CentennialRecipes (v4)\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\Recipe\ViewRecipe.cshtml.g.cs
+C:\Users\John\source\repos\COMP 229\CentennialRecipes (v4)\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\Shared\RecipeDetailsForm.cshtml.g.cs
+C:\Users\John\source\repos\COMP 229\CentennialRecipes (v4)\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_NavLayout.cshtml.g.cs
+C:\Users\John\source\repos\COMP 229\CentennialRecipes (v4)\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\John\source\repos\COMP 229\CentennialRecipes (v4)\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.RazorTargetAssemblyInfo.cache
+C:\Users\John\source\repos\COMP 229\CentennialRecipes (v4)\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.RazorTargetAssemblyInfo.cs
+C:\Users\John\source\repos\COMP 229\CentennialRecipes (v4)\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.Views.pdb
+C:\Users\John\source\repos\COMP 229\CentennialRecipes (v4)\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.dll
+C:\Users\John\source\repos\COMP 229\CentennialRecipes (v4)\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.pdb
+C:\Users\John\source\repos\COMP 229\CentennialRecipes (v4)\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.genruntimeconfig.cache
+C:\Users\John\source\repos\COMP 229\CentennialRecipes (v4)\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.csproj.CopyComplete
+C:\Users\John\source\repos\COMP 229\CentennialRecipes (v4)\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\Admin\Index.cshtml.g.cs
+C:\Users\John\source\repos\COMP 229\CentennialRecipes (v4)\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\Admin\RecipeList.cshtml.g.cs
+C:\Users\John\source\repos\COMP 229\CentennialRecipes (v4)\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\Admin\ChefList.cshtml.g.cs
+C:\Users\John\source\repos\COMP 229\CentennialRecipes (v4)\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\Admin\EnterChefDetails.cshtml.g.cs
+C:\Users\John\source\repos\COMP 229\CentennialRecipes (v4)\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.csprojAssemblyReference.cache
+C:\Users\John\source\repos\COMP 229\CentennialRecipes (v4)\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\Home\Menu.cshtml.g.cs
+C:\Users\John\source\repos\COMP 229\CentennialRecipes (v6)\CentennialRecipes\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\John\source\repos\COMP 229\CentennialRecipes (v6)\CentennialRecipes\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\John\source\repos\COMP 229\CentennialRecipes (v6)\CentennialRecipes\bin\Debug\netcoreapp2.1\CentennialRecipes.deps.json
+C:\Users\John\source\repos\COMP 229\CentennialRecipes (v6)\CentennialRecipes\bin\Debug\netcoreapp2.1\CentennialRecipes.runtimeconfig.json
+C:\Users\John\source\repos\COMP 229\CentennialRecipes (v6)\CentennialRecipes\bin\Debug\netcoreapp2.1\CentennialRecipes.runtimeconfig.dev.json
+C:\Users\John\source\repos\COMP 229\CentennialRecipes (v6)\CentennialRecipes\bin\Debug\netcoreapp2.1\CentennialRecipes.dll
+C:\Users\John\source\repos\COMP 229\CentennialRecipes (v6)\CentennialRecipes\bin\Debug\netcoreapp2.1\CentennialRecipes.pdb
+C:\Users\John\source\repos\COMP 229\CentennialRecipes (v6)\CentennialRecipes\bin\Debug\netcoreapp2.1\CentennialRecipes.Views.dll
+C:\Users\John\source\repos\COMP 229\CentennialRecipes (v6)\CentennialRecipes\bin\Debug\netcoreapp2.1\CentennialRecipes.Views.pdb
+C:\Users\John\source\repos\COMP 229\CentennialRecipes (v6)\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.csprojAssemblyReference.cache
+C:\Users\John\source\repos\COMP 229\CentennialRecipes (v6)\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.AssemblyInfoInputs.cache
+C:\Users\John\source\repos\COMP 229\CentennialRecipes (v6)\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.AssemblyInfo.cs
+C:\Users\John\source\repos\COMP 229\CentennialRecipes (v6)\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.csproj.CoreCompileInputs.cache
+C:\Users\John\source\repos\COMP 229\CentennialRecipes (v6)\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.RazorAssemblyInfo.cache
+C:\Users\John\source\repos\COMP 229\CentennialRecipes (v6)\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.RazorAssemblyInfo.cs
+C:\Users\John\source\repos\COMP 229\CentennialRecipes (v6)\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.TagHelpers.input.cache
+C:\Users\John\source\repos\COMP 229\CentennialRecipes (v6)\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.TagHelpers.output.cache
+C:\Users\John\source\repos\COMP 229\CentennialRecipes (v6)\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.RazorCoreGenerate.cache
+C:\Users\John\source\repos\COMP 229\CentennialRecipes (v6)\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\John\source\repos\COMP 229\CentennialRecipes (v6)\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\Account\SignUp.cshtml.g.cs
+C:\Users\John\source\repos\COMP 229\CentennialRecipes (v6)\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\Admin\ChefList.cshtml.g.cs
+C:\Users\John\source\repos\COMP 229\CentennialRecipes (v6)\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\Admin\EnterChefDetails.cshtml.g.cs
+C:\Users\John\source\repos\COMP 229\CentennialRecipes (v6)\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\Admin\Index.cshtml.g.cs
+C:\Users\John\source\repos\COMP 229\CentennialRecipes (v6)\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\Admin\RecipeList.cshtml.g.cs
+C:\Users\John\source\repos\COMP 229\CentennialRecipes (v6)\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\Chef\ChefList.cshtml.g.cs
+C:\Users\John\source\repos\COMP 229\CentennialRecipes (v6)\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\Chef\ViewChef.cshtml.g.cs
+C:\Users\John\source\repos\COMP 229\CentennialRecipes (v6)\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\John\source\repos\COMP 229\CentennialRecipes (v6)\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\Recipe\EnterRecipeDetails.cshtml.g.cs
+C:\Users\John\source\repos\COMP 229\CentennialRecipes (v6)\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\Recipe\RecipeList.cshtml.g.cs
+C:\Users\John\source\repos\COMP 229\CentennialRecipes (v6)\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\Recipe\ReviewRecipe.cshtml.g.cs
+C:\Users\John\source\repos\COMP 229\CentennialRecipes (v6)\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\Recipe\ViewRecipe.cshtml.g.cs
+C:\Users\John\source\repos\COMP 229\CentennialRecipes (v6)\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\Shared\AccountLayout.cshtml.g.cs
+C:\Users\John\source\repos\COMP 229\CentennialRecipes (v6)\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\Shared\AlertsLayout.cshtml.g.cs
+C:\Users\John\source\repos\COMP 229\CentennialRecipes (v6)\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\Shared\NavigationLayout.cshtml.g.cs
+C:\Users\John\source\repos\COMP 229\CentennialRecipes (v6)\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\Shared\RecipeDetailsForm.cshtml.g.cs
+C:\Users\John\source\repos\COMP 229\CentennialRecipes (v6)\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\John\source\repos\COMP 229\CentennialRecipes (v6)\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\John\source\repos\COMP 229\CentennialRecipes (v6)\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\John\source\repos\COMP 229\CentennialRecipes (v6)\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.RazorTargetAssemblyInfo.cache
+C:\Users\John\source\repos\COMP 229\CentennialRecipes (v6)\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.RazorTargetAssemblyInfo.cs
+C:\Users\John\source\repos\COMP 229\CentennialRecipes (v6)\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.Views.pdb
+C:\Users\John\source\repos\COMP 229\CentennialRecipes (v6)\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.dll
+C:\Users\John\source\repos\COMP 229\CentennialRecipes (v6)\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.pdb
+C:\Users\John\source\repos\COMP 229\CentennialRecipes (v6)\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.genruntimeconfig.cache
+C:\Users\John\source\repos\COMP 229\CentennialRecipes (v6)\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.csproj.CopyComplete
+C:\Users\John\source\repos\COMP 229\CentennialRecipes\CentennialRecipes\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\John\source\repos\COMP 229\CentennialRecipes\CentennialRecipes\bin\Debug\netcoreapp2.1\appsettings.production.json
+C:\Users\John\source\repos\COMP 229\CentennialRecipes\CentennialRecipes\bin\Debug\netcoreapp2.1\CentennialRecipes.deps.json
+C:\Users\John\source\repos\COMP 229\CentennialRecipes\CentennialRecipes\bin\Debug\netcoreapp2.1\CentennialRecipes.runtimeconfig.json
+C:\Users\John\source\repos\COMP 229\CentennialRecipes\CentennialRecipes\bin\Debug\netcoreapp2.1\CentennialRecipes.runtimeconfig.dev.json
+C:\Users\John\source\repos\COMP 229\CentennialRecipes\CentennialRecipes\bin\Debug\netcoreapp2.1\CentennialRecipes.dll
+C:\Users\John\source\repos\COMP 229\CentennialRecipes\CentennialRecipes\bin\Debug\netcoreapp2.1\CentennialRecipes.pdb
+C:\Users\John\source\repos\COMP 229\CentennialRecipes\CentennialRecipes\bin\Debug\netcoreapp2.1\CentennialRecipes.Views.dll
+C:\Users\John\source\repos\COMP 229\CentennialRecipes\CentennialRecipes\bin\Debug\netcoreapp2.1\CentennialRecipes.Views.pdb
+C:\Users\John\source\repos\COMP 229\CentennialRecipes\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.csprojAssemblyReference.cache
+C:\Users\John\source\repos\COMP 229\CentennialRecipes\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.AssemblyInfoInputs.cache
+C:\Users\John\source\repos\COMP 229\CentennialRecipes\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.AssemblyInfo.cs
+C:\Users\John\source\repos\COMP 229\CentennialRecipes\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.csproj.CoreCompileInputs.cache
+C:\Users\John\source\repos\COMP 229\CentennialRecipes\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.RazorAssemblyInfo.cache
+C:\Users\John\source\repos\COMP 229\CentennialRecipes\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.RazorAssemblyInfo.cs
+C:\Users\John\source\repos\COMP 229\CentennialRecipes\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.TagHelpers.input.cache
+C:\Users\John\source\repos\COMP 229\CentennialRecipes\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.TagHelpers.output.cache
+C:\Users\John\source\repos\COMP 229\CentennialRecipes\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.RazorCoreGenerate.cache
+C:\Users\John\source\repos\COMP 229\CentennialRecipes\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\John\source\repos\COMP 229\CentennialRecipes\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\Account\SignUp.cshtml.g.cs
+C:\Users\John\source\repos\COMP 229\CentennialRecipes\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\Admin\ChefList.cshtml.g.cs
+C:\Users\John\source\repos\COMP 229\CentennialRecipes\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\Admin\EnterChefDetails.cshtml.g.cs
+C:\Users\John\source\repos\COMP 229\CentennialRecipes\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\Admin\Index.cshtml.g.cs
+C:\Users\John\source\repos\COMP 229\CentennialRecipes\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\Admin\RecipeList.cshtml.g.cs
+C:\Users\John\source\repos\COMP 229\CentennialRecipes\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\Chef\ChefList.cshtml.g.cs
+C:\Users\John\source\repos\COMP 229\CentennialRecipes\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\Chef\ViewChef.cshtml.g.cs
+C:\Users\John\source\repos\COMP 229\CentennialRecipes\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\John\source\repos\COMP 229\CentennialRecipes\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\Recipe\EnterRecipeDetails.cshtml.g.cs
+C:\Users\John\source\repos\COMP 229\CentennialRecipes\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\Recipe\RecipeList.cshtml.g.cs
+C:\Users\John\source\repos\COMP 229\CentennialRecipes\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\Recipe\ReviewRecipe.cshtml.g.cs
+C:\Users\John\source\repos\COMP 229\CentennialRecipes\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\Recipe\ViewRecipe.cshtml.g.cs
+C:\Users\John\source\repos\COMP 229\CentennialRecipes\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\Shared\AccountLayout.cshtml.g.cs
+C:\Users\John\source\repos\COMP 229\CentennialRecipes\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\Shared\AlertsLayout.cshtml.g.cs
+C:\Users\John\source\repos\COMP 229\CentennialRecipes\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\Shared\NavigationLayout.cshtml.g.cs
+C:\Users\John\source\repos\COMP 229\CentennialRecipes\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\Shared\RecipeDetailsForm.cshtml.g.cs
+C:\Users\John\source\repos\COMP 229\CentennialRecipes\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\John\source\repos\COMP 229\CentennialRecipes\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\John\source\repos\COMP 229\CentennialRecipes\CentennialRecipes\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\John\source\repos\COMP 229\CentennialRecipes\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.RazorTargetAssemblyInfo.cache
+C:\Users\John\source\repos\COMP 229\CentennialRecipes\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.RazorTargetAssemblyInfo.cs
+C:\Users\John\source\repos\COMP 229\CentennialRecipes\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.Views.pdb
+C:\Users\John\source\repos\COMP 229\CentennialRecipes\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.dll
+C:\Users\John\source\repos\COMP 229\CentennialRecipes\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.pdb
+C:\Users\John\source\repos\COMP 229\CentennialRecipes\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.genruntimeconfig.cache
+C:\Users\John\source\repos\COMP 229\CentennialRecipes\CentennialRecipes\obj\Debug\netcoreapp2.1\CentennialRecipes.csproj.CopyComplete

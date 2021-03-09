@@ -1,0 +1,157 @@
+﻿@model RecipeListViewModel
+@{
+    ViewBag.Title = "Manage Recipes | Centennial Recipes";
+}
+
+<div class="flex-vertical">
+    <h2>@ViewBag.Header</h2>
+
+    <table class="list">
+        <!-- Column Definitions (%) -->
+        <colgroup>
+            <col width="10" />
+            <col width="30" />
+            <col width="25" />
+            <col width="20" />
+            <col width="15" />
+        </colgroup>
+
+        <thead>
+            <tr>
+                <!-- Table Headers -->
+                <th>ID</th>
+                <th>Name</th>
+                <th>Chef</th>
+                <th>Author</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        @foreach (Recipe recipe in Model.RecipeList)
+        {
+            <tr>
+                <!-- Recipe ID -->
+                <td align="center">
+                    @recipe.RecipeId
+                </td>
+
+                <!-- Recipe Name -->
+                <td>
+                    <a asp-controller="Recipe"
+                       asp-action="ViewRecipe"
+                       asp-route-id="@recipe.RecipeId"
+                       title="View recipe">@recipe.Name</a>
+                </td>
+
+                <!-- Chef -->
+                <td>
+                    @if (recipe.ChefId == 1) // if recipe has "Other" chef
+                    {
+                        <span>@recipe.ChefName</span>
+                    }
+                    else // if recipe is created by an existing chef
+                    {
+                        <a asp-controller="Chef"
+                           asp-action="ViewChef"
+                           asp-route-id="@recipe.ChefId"
+                           title="View chef profile">@recipe.Chef.ToString()</a>
+                    }
+                </td>
+
+                <!-- Author Name (who added the recipe) -->
+                <td align="center">
+                    <a asp-action="RecipeList"
+                       asp-route-user="@recipe.User"
+                       title="View all recipes added by this user">@recipe.User</a>
+                </td>
+
+                <!-- ACTIONS -->
+                <td align="center" class="actions">
+                    <!-- View Action-->
+                    <a asp-controller="Recipe"
+                       asp-action="ViewRecipe"
+                       asp-route-id="@recipe.RecipeId"
+                       title="View recipe">
+                        <img src="~/images/view.png" />
+                    </a>
+
+                    <!-- Edit Action -->
+                    <a asp-controller="Recipe"
+                       asp-action="EnterRecipeDetails"
+                       asp-route-id="@recipe.RecipeId"
+                       asp-route-returnUrl="@ViewContext.HttpContext.Request.Path"
+                       title="Edit recipe">
+                        <img src="~/images/edit.png" />
+                    </a>
+
+                    <!-- Write a Review Action-->
+                    <a asp-controller="Recipe"
+                       asp-action="ReviewRecipe"
+                       asp-route-id="@recipe.RecipeId"
+                       title="Write a review">
+                        <img src="~/images/review.png" />
+                    </a>
+
+                    <!-- Delete Action -->
+                    <a onclick="confirmDelete(@recipe.RecipeId)" title="Delete recipe">
+                        <img src="~/images/delete.png" />
+                    </a>
+                </td>
+            </tr>
+        }
+
+        <!-- If List is empty (insert row spanning 5 columns) -->
+        @if (Model.PagingInfo.TotalItems == 0)
+        {
+            <tr><td colspan="5" align="center">@ViewBag.NoItemsFound</td></tr>
+        }
+
+    </table>
+
+    <hr />
+
+    <i class="flex-align-self-end">@ViewBag.Results</i>
+
+    <!-- Add Button (appears on the last page) -->
+    @if (Model.PagingInfo.CurrentPage == Model.PagingInfo.TotalPages)
+    {
+        <a class="btn btn-medium flex-align-self-start"
+           asp-controller="Recipe"
+           asp-action="EnterRecipeDetails"
+           asp-route-id="0"
+           asp-route-returnUrl="@ViewContext.HttpContext.Request.Path">
+            <b>+</b> Add a Recipe
+        </a>
+    }
+
+    <!-- PAGE LINKS -->
+    <div class="pageLinks flex-align-self-center">
+        <!-- Previous Button -->
+        @if (Model.PagingInfo.CurrentPage > 1)
+        {
+            <a asp-action="RecipeList"
+               asp-route-page="@(Model.PagingInfo.CurrentPage - 1)"
+               asp-route-chefId="@Model.ChefId"
+               asp-route-user="@Model.UserName">Previous</a>
+        }
+
+        <!-- Page Buttons -->
+        @for (int i = 1; i < Model.PagingInfo.TotalPages + 1; i++)
+        {
+            <a class="@((i == Model.PagingInfo.CurrentPage) ? ("currentPageLink") : (""))"
+               asp-action="RecipeList"
+               asp-route-page="@i"
+               asp-route-chefId="@Model.ChefId"
+               asp-route-user="@Model.UserName">@i</a>
+        }
+
+        <!-- Next Button -->
+        @if (Model.PagingInfo.CurrentPage < Model.PagingInfo.TotalPages)
+        {
+            <a asp-action="RecipeList"
+               asp-route-page="@(Model.PagingInfo.CurrentPage + 1)"
+               asp-route-chefId="@Model.ChefId"
+               asp-route-user="@Model.UserName">Next</a>
+        }
+    </div>
+    <hr />
+</div>

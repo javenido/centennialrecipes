@@ -1,0 +1,654 @@
+﻿:root {
+    --background-dark: #454547;
+    --background-medium-light: #f0f0f0;
+    --background-light: #f4f6fa;
+    --background-lighter: #fff;
+    --border: #ddd;
+    --color-accent: #d4df38;
+    --color-accent2: #e3ea7a;
+    --color-primary: #0077d4;
+    --color-secondary: #037896;
+    --foreground-dark: #313131;
+    --foreground-light: #fff;
+    font-family: Arial;
+    font-size: 1.25em;
+}
+
+::selection {
+    color: var(--color-accent);
+    background-color: var(--foreground-dark);
+}
+
+/* CLASS-BASED STYLES */
+
+.account {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: var(--background-medium-light);
+    padding: 18px;
+}
+
+    .account a {
+        color: var(--foreground-dark);
+    }
+
+    .account img {
+        margin-left: 32px;
+        margin-right: 4px;
+    }
+
+.bg-lighter-solid-border {
+    background-color: var(--background-lighter);
+    border: 1px solid var(--border);
+}
+
+.btn-large {
+    font-size: 24px;
+    margin: 8px;
+    padding: 16px;
+}
+
+.btn-medium {
+    font-size: 20px;
+    margin: 8px;
+    padding: 12px;
+}
+
+.btn-small {
+    font-size: 16px;
+    margin: 6px;
+    padding: 8px;
+}
+
+.carousel-controls {
+    display: flex;
+    height: 100%;
+    position: absolute;
+    align-items: flex-end;
+}
+
+    .carousel-controls img {
+        cursor: pointer;
+        padding: 2px;
+        border-radius: 45px;
+        border: solid 3px var(--foreground-light);
+    }
+
+        .carousel-controls img:hover {
+            background-color: dimgray;
+        }
+
+.chef {
+    padding: 16px;
+    width: 30%;
+    margin: 8px;
+}
+
+    .chef div {
+        margin-top: 16px;
+        margin-bottom: 8px;
+    }
+
+    .chef img {
+        margin-left: 12px;
+    }
+
+.image-source {
+    display: flex;
+    height: 100%;
+    align-items: flex-end;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    pointer-events: none;
+}
+
+    .image-source i {
+        font-family: Arial;
+        font-size: 14px;
+        color: var(--foreground-light);
+        opacity: 0.4;
+        padding: 4px;
+    }
+
+.flex-align-items-end {
+    align-items: flex-end;
+}
+
+.flex-align-items-start {
+    align-items: flex-start;
+}
+
+.flex-align-self-center {
+    align-self: center;
+}
+
+.flex-align-items-center {
+    align-items: center;
+}
+
+.flex-align-items-stretch {
+    align-items: stretch;
+}
+
+.flex-align-self-end {
+    align-self: flex-end;
+}
+
+.flex-align-self-start {
+    align-self: flex-start;
+}
+
+.flex-horizontal {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.flex-horizontal-justified {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.flex-horizontal-wrapping {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.flex-vertical {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-vertical-padded {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+}
+
+.home-menu {
+    background-size: cover;
+    background-color: var(--background-dark);
+}
+
+.home-menu-contents {
+    display: flex;
+    flex-direction: column;
+    font-family: Impact;
+    width: 80%;
+    align-self: center;
+}
+
+    .home-menu-contents h1 {
+        font-size: 100px;
+        color: var(--foreground-light);
+        background: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .home-menu-contents h2 {
+        font-size: 92px;
+        color: var(--color-accent);
+        background: none;
+        margin: 0;
+        margin-top: -28px;
+        padding: 0;
+    }
+
+    .home-menu-contents h3 {
+        font-family: 'Cambria';
+        color: var(--foreground-light);
+    }
+
+    .home-menu-contents a {
+        font-family: 'Arial';
+        background: none;
+        padding: 16px;
+        border: solid 2px var(--foreground-light);
+        color: var(--foreground-light);
+        font-size: 18px;
+        margin: 10px 25px;
+        width: 200px;
+        text-align: center;
+    }
+
+        .home-menu-contents a:hover {
+            background-color: var(--background-lighter);
+            color: var(--foreground-dark);
+            text-decoration: underline;
+        }
+
+.list {
+    border-spacing: 0;
+    table-layout: fixed;
+    width: 100%;
+    border: 1px solid var(--border);
+}
+
+    .list thead tr {
+        background-color: var(--foreground-dark);
+        color: var(--foreground-light);
+    }
+
+    .list .actions a {
+        cursor: pointer;
+        filter: saturate(0);
+    }
+
+        .list .actions a:hover {
+            filter: saturate(1);
+        }
+
+    .list td {
+        padding: 16px;
+        /*border-bottom: solid var(--border) 1px;
+        border-right: solid var(--border) 1px;*/
+    }
+
+        .list td:last-child {
+            border-right: none;
+        }
+
+    .list th {
+        padding: 20px;
+    }
+
+    .list tbody tr:nth-child(even) {
+        background-color: var(--background-medium-light);
+    }
+
+    .list tbody tr:nth-child(odd) {
+        background-color: var(--background-lighter);
+    }
+
+    .list tbody tr:hover {
+        background-color: var(--color-accent2);
+    }
+
+.message img {
+    cursor: pointer;
+    position: absolute;
+    align-self: flex-end;
+    filter: brightness(0) invert(1) brightness(90%);
+}
+
+    .message img:hover {
+        filter: brightness(0) invert(1);
+    }
+
+.numeric-input {
+    width: 50px;
+}
+
+.pageLinks {
+    background-color: var(--background-lighter);
+    border-bottom: solid var(--border) 1px;
+    border-left: solid var(--border) 1px;
+    border-top: solid var(--border) 1px;
+    display: flex;
+    flex-direction: row;
+}
+
+    .pageLinks a {
+        border-right: solid var(--border) 1px;
+        padding: 8px;
+        margin: 0px;
+    }
+
+        .pageLinks a:hover {
+            background-color: var(--color-primary);
+            border-right: solid var(--border) 1px;
+            color: var(--foreground-light);
+            padding: 8px;
+        }
+
+    .pageLinks .currentPageLink {
+        background-color: var(--color-secondary);
+        color: var(--foreground-light);
+    }
+
+.recipe {
+    padding: 32px;
+}
+
+    .recipe h3 {
+        margin: 0;
+    }
+
+    .recipe i, .recipe span {
+        margin-bottom: 32px;
+    }
+
+    .recipe img {
+        margin-left: 12px;
+        margin-bottom: 16px;
+    }
+
+.rendered {
+    height: 100%;
+    width: 75%;
+    align-self: center;
+    overflow: hidden;
+}
+
+.review {
+    padding: 16px;
+}
+
+    .review div {
+        text-align: end;
+        font-size: 14px;
+        font-style: italic;
+    }
+
+.reviewDiv {
+    background-color: var(--background-light);
+    border: 1px solid var(--border);
+    margin-bottom: 16px;
+}
+
+    .reviewDiv img {
+        filter: saturate(0);
+        cursor: pointer;
+        align-self: start;
+        padding: 8px 8px 0 0;
+    }
+
+        .reviewDiv img:hover {
+            filter: saturate(1);
+        }
+
+.reviewForm {
+    display: flex;
+    flex-direction: column;
+}
+
+    .reviewForm textarea {
+        align-self: stretch;
+    }
+
+.validation-summary-errors, .message {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-secondary);
+    color: var(--foreground-light);
+    padding: 12px;
+    margin-bottom: 32px;
+}
+
+    .validation-summary-errors ul, .message label {
+        width: 75%;
+        align-self: center;
+    }
+
+/* ID-BASED STYLES */
+
+#Content {
+    margin: 16px 0;
+}
+
+#ingredientsList {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+    #ingredientsList li {
+        padding: 8px;
+        background-color: var(--background-light);
+        border: 1px solid var(--border);
+        color: var(--foreground-dark);
+        width: auto;
+        margin: 4px;
+        list-style: none;
+    }
+
+    #ingredientsList img, #directionsList img {
+        margin-left: 8px;
+        cursor: pointer;
+        filter: saturate(0);
+    }
+
+    #ingredientsList input, #ingredientsList input:focus {
+        outline: none;
+        background-color: rgba(0, 0, 0, 0);
+        border: none;
+        box-shadow: none;
+        height: 16px;
+        font-size: 20px;
+    }
+
+    #ingredientsList img:hover, img:hover {
+        filter: saturate(1);
+    }
+
+    #ingredientsList span {
+        cursor: pointer;
+    }
+
+#reviewInputDiv {
+    width: 75%;
+}
+
+/* BASE HTML ELEMENTS */
+a {
+    color: var(--color-primary);
+    text-decoration: none;
+}
+
+body {
+    color: var(--foreground-dark);
+    display: flex;
+    flex-direction: column;
+    background-color: var(--background-light);
+    margin: 0;
+    padding: 0;
+}
+
+button, .btn {
+    background-color: var(--color-primary);
+    border-style: none;
+    color: var(--foreground-light);
+    cursor: pointer;
+}
+
+    button:disabled {
+        filter: saturate(0%);
+        cursor: not-allowed;
+    }
+
+footer {
+    border-top: 1px solid var(--border);
+    background-color: var(--background-light);
+    padding: 16px;
+    color: var(--foreground-dark)
+}
+
+h1 {
+    background-color: var(--color-primary);
+    color: var(--foreground-light);
+    font-weight: normal;
+    margin: 0;
+    padding: 8px;
+}
+
+hr {
+    border: 0;
+    height: 32px;
+}
+
+input:not([type=checkbox]) {
+    border-radius: 4px;
+    border: none;
+    border: 1px solid var(--border);
+    height: 24px;
+}
+
+    input:not([type=checkbox]):focus, textarea:focus {
+        outline: none;
+        border-color: var(--color-primary);
+        box-shadow: 0px 0px 8px var(--color-primary);
+    }
+
+select {
+    height: 28px;
+    margin: 0 8px;
+}
+
+td {
+    padding: 8px;
+}
+
+textarea {
+    border-radius: 4px;
+    border: 1px solid var(--border);
+}
+
+/* NAVIGATION AND DROPDOWN STYLES */
+
+.nav {
+    background-color: var(--color-accent);
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+    .nav #logo {
+        padding: 0;
+    }
+
+    .nav a, .nav .dropbtn {
+        display: flex;
+        color: var(--foreground-dark);
+        font-size: 24px;
+        align-items: center;
+        background: none;
+        align-self: stretch;
+        padding: 0 16px;
+    }
+
+        .nav a:hover, .nav .dropdown:hover, .nav .dropdown:hover .dropbtn {
+            color: var(--foreground-light);
+            background-color: var(--background-dark);
+            cursor: pointer;
+        }
+
+.accountBtn {
+    cursor: pointer;
+}
+
+.accountDiv {
+}
+
+    .accountDiv:hover {
+    }
+
+#accountDropdown {
+    flex-direction: column;
+    position: absolute;
+    background-color: var(--foreground-dark);
+    min-width: 140px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-top: 24px;
+}
+
+    #accountDropdown a {
+        cursor: pointer;
+        float: none;
+        padding: 8px 10px;
+        text-decoration: none;
+        display: block;
+        text-align: right;
+        font-size: 20px;
+        color: var(--foreground-light);
+    }
+
+        #accountDropdown a:hover {
+            backdrop-filter: brightness(1.25); /* may not work on some browsers */
+        }
+
+.accountDropdownIcon {
+    cursor: pointer;
+}
+
+    .accountDropdownIcon:hover {
+        color: var(--foreground-light);
+        background-color: var(--background-dark);
+    }
+
+.dropdown {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    overflow: hidden;
+    align-self: stretch;
+}
+
+    .dropdown .dropbtn {
+        margin-top: auto;
+        margin-bottom: auto;
+        outline: none;
+    }
+
+    .dropdown:hover .dropbtn {
+    }
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: var(--foreground-dark);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+    .dropdown-content a {
+        float: none;
+        padding: 8px 10px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+        font-size: 20px;
+        color: var(--foreground-light);
+    }
+
+.dropdown:hover .dropdown-content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 72px;
+}
+
+.dropdown-content-side {
+    display: none;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-height: 300px;
+    margin-left: 261px;
+    margin-top: -39px;
+    position: absolute;
+    color: var(--foreground-light);
+}
+
+    .dropdown-content-side a {
+        background-color: rgba(49, 49, 49, 0.9);
+        font-size: 18px;
+    }
+
+        .dropdown-content-side a:hover {
+            text-decoration: underline;
+            background-color: rgba(49, 49, 49, 0.9);
+        }
+
+.dropbtn-side {
+    cursor: pointer;
+}
+
+.dropdown-side:hover .dropdown-content-side {
+    display: flex;
+}

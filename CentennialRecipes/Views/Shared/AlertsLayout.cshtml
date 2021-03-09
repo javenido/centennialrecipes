@@ -1,0 +1,12 @@
+﻿<!-- Custom alert messages -->
+@if (TempData["message"] != null)
+{
+    <div class="message">
+        <label>@TempData["message"]</label>
+
+        <img title="Dismiss" onclick="tapToDismiss(this);" src="~/images/remove.png" />
+    </div>
+}
+
+<!-- Form submission failure error messages -->
+<div asp-validation-summary="All"></div>

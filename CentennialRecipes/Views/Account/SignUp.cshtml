@@ -1,0 +1,53 @@
+﻿@model RegisterViewModel
+@{
+    ViewBag.Title = "Sign Up | Centennial Recipes";
+}
+
+<h1>Create a Centennial Recipes account</h1>
+
+<div class="flex-vertical bg-lighter-solid-border">
+
+    <hr />
+
+    <form asp-controller="Account"
+          asp-action="SignUp"
+          method="post"
+          class="flex-vertical">
+
+        <!-- Return URL -->
+        <input asp-for="ReturnUrl" hidden readonly />
+
+        <table class="flex-align-self-center">
+            <!-- USERNAME -->
+            <tr>
+                <td align="right">User Name:</td>
+                <td><input asp-for="Name" size="30" /></td>
+            </tr>
+
+            <!-- PASSWORD -->
+            <tr>
+                <td align="right">Password:</td>
+                <td><input asp-for="Password" size="30" /></td>
+            </tr>
+
+            <!-- Show Password Check box -->
+            <tr>
+                <td></td>
+                <td><input type="checkbox" onclick="revealPassword();">Show Password</td>
+            </tr>
+
+            <!-- CONFIRM PASSWORD -->
+            <tr>
+                <td align="right">Confirm Password:</td>
+                <td><input asp-for="ConfirmPassword" size="30" /></td>
+            </tr>
+        </table>
+
+        <hr />
+
+        <!-- Sign up button -->
+        <button class="btn btn-large flex-align-self-center" type="submit">Sign Up</button>
+    </form>
+
+    <hr />
+</div>
